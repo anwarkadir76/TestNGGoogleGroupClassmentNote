@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="87" started-at="2019-07-19T22:41:51Z" finished-at="2019-07-19T22:41:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="87" started-at="2019-07-19T22:41:51Z" finished-at="2019-07-19T22:41:51Z">
+      <class name="_ReportingconsolidatedTestNGresultforteststhatusedataproviders.TestclassSample">
+        <test-method status="FAIL" signature="anotherTestMethod()[pri:0, instance:_ReportingconsolidatedTestNGresultforteststhatusedataproviders.TestclassSample@5c7fa833]" name="anotherTestMethod" duration-ms="35" started-at="2019-07-19T22:41:51Z" finished-at="2019-07-19T22:41:51Z">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+The method isDataDriven() is undefined for the type ITestNGMethod
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+The method isDataDriven() is undefined for the type ITestNGMethod
+
+at _ReportingconsolidatedTestNGresultforteststhatusedataproviders.IListen.afterInvocation(IListen.java:33)
+at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeAfterInvocationWithoutContextStrategy.callMethod(InvokedMethodListenerInvoker.java:100)
+at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:62)
+at org.testng.internal.Invoker.runInvokedMethodListeners(Invoker.java:493)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:617)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anotherTestMethod -->
+        <test-method status="FAIL" signature="failingTestMethod(int)[pri:0, instance:_ReportingconsolidatedTestNGresultforteststhatusedataproviders.TestclassSample@5c7fa833]" name="failingTestMethod" duration-ms="13" started-at="2019-07-19T22:41:51Z" data-provider="dp" finished-at="2019-07-19T22:41:51Z">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+The method isDataDriven() is undefined for the type ITestNGMethod
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+The method isDataDriven() is undefined for the type ITestNGMethod
+
+at _ReportingconsolidatedTestNGresultforteststhatusedataproviders.IListen.afterInvocation(IListen.java:33)
+at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeAfterInvocationWithoutContextStrategy.callMethod(InvokedMethodListenerInvoker.java:100)
+at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:62)
+at org.testng.internal.Invoker.runInvokedMethodListeners(Invoker.java:493)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:617)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failingTestMethod -->
+        <test-method status="FAIL" signature="passingTestMethod(int)[pri:0, instance:_ReportingconsolidatedTestNGresultforteststhatusedataproviders.TestclassSample@5c7fa833]" name="passingTestMethod" duration-ms="6" started-at="2019-07-19T22:41:51Z" data-provider="dp" finished-at="2019-07-19T22:41:51Z">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+The method isDataDriven() is undefined for the type ITestNGMethod
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+The method isDataDriven() is undefined for the type ITestNGMethod
+
+at _ReportingconsolidatedTestNGresultforteststhatusedataproviders.IListen.afterInvocation(IListen.java:33)
+at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeAfterInvocationWithoutContextStrategy.callMethod(InvokedMethodListenerInvoker.java:100)
+at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:62)
+at org.testng.internal.Invoker.runInvokedMethodListeners(Invoker.java:493)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:617)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passingTestMethod -->
+      </class> <!-- _ReportingconsolidatedTestNGresultforteststhatusedataproviders.TestclassSample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
